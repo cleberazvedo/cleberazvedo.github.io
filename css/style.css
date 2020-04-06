@@ -86,6 +86,7 @@ input[type="email"] {
     margin-top: 20px;
     margin-left: -100px;
     background-color: #383838;
+    padding-left:10px;
 }
 
 input[type="button"],
