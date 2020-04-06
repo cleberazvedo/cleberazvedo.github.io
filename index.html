@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="displayLogo">
+            <img src="image/logo.png" alt="">
+        </div>
+        <div class="displayLogin">
+            <form id="formLogin" name="formLogin" method="post" action="loginUsuario" autocomplete="off">
+                <div class="row">
+                </div>
+                <div class="row">
+                    <div class="col-dg-8 col-dm-8">
+                        <input type="text" name="usuario" id="txtNome" maxlength="40" required="required" autocomplete="off" placeholder=" Usuário/E-mail">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-dg-8 col-dm-8" efectSenha>
+                        <input type="password" name="senha" id="txtSenha" maxlength="20" required="required" autocomplete="off" placeholder=" Senha">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-dg-6 col-dm-6">
+                        <input type="button" value="Login" onclick="validarLogin()" onfocus="playAudio('sonsButton')" onblur="pauseAudio('sonsButton')">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-dg-12 col-dm-12 login">
+                        <p>Ainda não tem conta? <a href="">Cadastre-se</a></p>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<html>

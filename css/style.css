@@ -1,0 +1,140 @@
+* {
+    font-family: calibri;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("../image/fundo_inicial.jpg");
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 80vh;
+    background-size: 100vw;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+    margin: 75px 0px 0px 70px;
+}
+
+.displayLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 50vh;
+    margin: 0px -50px 50px 50px;
+    border-right: 5px solid #383838;
+}
+
+.displayLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 50vh;
+    margin: 0px 50px 50px 50px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: -100px;
+    width: 2000px;
+}
+
+.login p {
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 2px rgb(104, 104, 104);
+}
+
+.login a {
+    color: red;
+    text-shadow: 1.5px 1.5px 2px rgb(104, 104, 104);
+}
+
+label {
+    color: white;
+    margin-top: 30px;
+    margin-left: -90px;
+    position: fixed;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 10px;
+    outline: 0;
+    height: 40px;
+    width: 250px;
+    text-align: left;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 20px;
+    margin-left: -100px;
+    background-color: #383838;
+}
+
+input[type="button"],
+[type="reset"],
+[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 5px 2px #2e2e2e;
+    transition: 0.01s;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgb(29, 29, 29);
+    background-image: linear-gradient(#818181, #383838);
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: -100px;
+    outline: 0;
+}
+
+input[type="button"]:hover,
+[type="reset"]:hover,
+[type="submit"]:hover {
+    animation: letterMove;
+    animation-duration: 0.75s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    transition: 0.01s;
+    color: white;
+    text-shadow: 2px 2px 1px rgb(29, 29, 29);
+    background-image: linear-gradient(#7e7e7e, #1b1b1b);
+    width: 105px;
+    height: 32px;
+    font-size: 17px;
+    margin-top: 29px;
+}
+
+input[type="button"]:active,
+[type="reset"]:active,
+[type="submit"]:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+    transition: 0.01s;
+    outline: none;
+}
